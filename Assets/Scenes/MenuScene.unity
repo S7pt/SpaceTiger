@@ -2132,7 +2132,7 @@ MonoBehaviour:
   _skinsButton: {fileID: 764145637}
   _loader: {fileID: 870595490}
   _skinsWindow: {fileID: 1868164682}
-  _settingsWindow: {fileID: 0}
+  _settingsWindow: {fileID: 1553460532}
 --- !u!1 &738378792
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,6 +18,5 @@ public class GameLoader : MonoBehaviour
 		_loadingScreen.SetActive(true);
 		yield return new WaitForSeconds(_loadingDuration);
 		SceneManager.LoadScene(_gameSceneId);
-		_loadingScreen.SetActive(false);
 	}
 }

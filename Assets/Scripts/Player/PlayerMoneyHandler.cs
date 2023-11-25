@@ -14,6 +14,11 @@ public class PlayerMoneyHandler : MonoBehaviour
 		_currentAmount = PlayerPrefs.GetInt(MONEY);
 	}
 
+	private void OnDestroy()
+	{
+		PlayerPrefs.SetInt(MONEY, _currentAmount);
+	}
+
 	public bool CanAfford(int amount)
 	{
 		return _currentAmount >= amount;
